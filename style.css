@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    /* border: 1px solid black; */
 }
 
 /* header section styles */
@@ -336,3 +335,48 @@ span{
 .input-section{
     margin-right: 16px;
 }
+
+/* footer section */
+
+.footer-banner{
+    background-color: #111010;
+    width: 100%;
+    height: 449px;
+}
+.footer-container{
+    text-align: center;
+    padding: 128px;
+}
+.footer-title{
+    color: #fff;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+.footer-para{
+    display: flex;
+    width: 625px;
+    -direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 500px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 32px;
+}
+
+/* Finished */
